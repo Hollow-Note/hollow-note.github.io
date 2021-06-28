@@ -2,9 +2,9 @@
 
 This is a static, single page site built with Nuxt, Nuxt Content, and Vue. Hosted with Github Pages. 
 
-## Domains:
-- Github Pages: [hollow-note.github.io](hollow-note.github.io)
-- Custom Domain: [hollownote.com](hollownote.com)
+## Domains
+- Github Pages: [hollow-note.github.io](https://hollow-note.github.io)
+- Custom Domain: [hollownote.com](https://hollownote.com)
 
 ## A note about the branches
 Pushing changes to `main` will trigger a deployment to the `gh-pages` branch - the live site. Don't make changes directly to the `gh-pages` branch. 
