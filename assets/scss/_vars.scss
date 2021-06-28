@@ -1,0 +1,48 @@
+// ==========================================================================
+// TYPE
+// ==========================================================================
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap");
+
+$font-family-base: "Roboto", Helvetica, Verdana, sans-serif;
+$font-family-head: "Libre Baskerville", serif;
+$font-size-default: 16px;
+// Headings
+// H1
+$h1-font-size: 40px;
+$h1-font-size-sm: 48px;
+$h1-font-size-md: 54px;
+$h1-font-size-lg: 60px;
+$h1-font-size-xl: 68px;
+// H2
+$h2-font-size: 34px;
+$h2-font-size-sm: 36px;
+$h2-font-size-md: 38px;
+$h2-font-size-lg: 40px;
+$h2-font-size-xl: 42px;
+// H3
+$h3-font-size: 28px;
+$h3-font-size-sm: 31px;
+$h3-font-size-md: 33px;
+$h3-font-size-lg: 35px;
+$h3-font-size-xl: 37px;
+// H4
+$h4-font-size: 26px;
+$h4-font-size-sm: 26px;
+$h4-font-size-md: 26px;
+$h4-font-size-lg: 26px;
+$h4-font-size-xl: 26px;
+
+// H5
+$h5-font-size: 23px;
+
+// H6
+$h6-font-size: 20px;
+
+// ==========================================================================
+// Breakpoints
+// ==========================================================================
+$hn-breakpoint-sm: 576px !default;
+$hn-breakpoint-md: 768px !default;
+$hn-breakpoint-lg: 992px !default;
+$hn-breakpoint-xl: 1200px !default;
+$hn-breakpoint-xxl: 1440px !default;

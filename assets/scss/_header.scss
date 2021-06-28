@@ -1,0 +1,15 @@
+.v-app-bar {
+  .row {
+    align-items: center;
+  }
+}
+
+.app-bar-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .v-image {
+    margin-right: 2rem;
+  }
+}
