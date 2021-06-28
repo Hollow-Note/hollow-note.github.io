@@ -28,7 +28,7 @@
           <v-spacer />
           <v-btn
             v-show="$vuetify.breakpoint.mdAndUp"
-            href="https://www.etsy.com"
+            :href="storeLink"
             target="_blank"
           >
             Etsy Shop
@@ -58,9 +58,7 @@
 </template>
 
 <script>
-import HnLogo from "../components/HnLogo.vue";
 export default {
-  components: { HnLogo },
   data() {
     return {
       drawer: false,
@@ -69,12 +67,17 @@ export default {
         {
           icon: "mdi-store",
           title: "Etsy Shop",
-          to: "https://www.etsy.com"
+          to: this.storeLink
         }
       ],
       miniVariant: false,
       title: "Greeting Cards"
     };
+  },
+  computed: {
+    storeLink() {
+      return this.$store.state.storeLink;
+    }
   }
 };
 </script>
