@@ -2,8 +2,15 @@
   <div class="hn-intro">
     <v-container>
       <v-row>
-        <v-card class="hn-intro-content" max-width="720">
+        <v-card class="hn-intro-content" max-width="800">
           <nuxt-content :document="content" />
+          <v-btn
+            v-show="$vuetify.breakpoint.mdAndUp"
+            :href="storeLink"
+            target="_blank"
+          >
+            Visit our Etsy Shop
+          </v-btn>
         </v-card>
       </v-row>
     </v-container>
@@ -17,6 +24,11 @@ export default {
     content: {
       type: Object,
       required: true
+    }
+  },
+  computed: {
+    storeLink() {
+      return this.$store.state.storeLink;
     }
   }
 };

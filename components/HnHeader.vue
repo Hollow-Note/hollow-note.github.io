@@ -30,7 +30,6 @@
             v-show="$vuetify.breakpoint.mdAndUp"
             :href="storeLink"
             target="_blank"
-            color="primary"
           >
             Etsy Shop
           </v-btn>

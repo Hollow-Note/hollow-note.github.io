@@ -25,6 +25,17 @@
             </div>
           </v-col>
         </v-row>
+        <v-row>
+          <v-col>
+            <v-btn
+              v-show="$vuetify.breakpoint.mdAndUp"
+              :href="storeLink"
+              target="_blank"
+            >
+              See all designs on Etsy
+            </v-btn>
+          </v-col>
+        </v-row>
       </div>
     </v-container>
   </div>
@@ -38,13 +49,18 @@ export default {
       type: Array,
       required: true
     }
+  },
+  computed: {
+    storeLink() {
+      return this.$store.state.storeLink;
+    }
   }
 };
 </script>
 
 <style lang="scss" scoped>
 .hn-card-section {
-  padding: 2rem 0 4rem;
+  padding: 2rem 0 2rem;
   text-align: center;
   .hn-card-group-title {
     margin-bottom: 4rem;

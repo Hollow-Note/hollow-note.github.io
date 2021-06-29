@@ -3,6 +3,7 @@
     <hn-hero />
     <hn-intro :content="content.intro" />
     <hn-card-group :cards="content.cards" />
+    <hn-about :content="content.about" />
   </div>
 </template>
 <script>
