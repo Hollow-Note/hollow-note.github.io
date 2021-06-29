@@ -18,7 +18,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar fixed app height="90">
+    <v-app-bar fixed app height="90" elevate-on-scroll>
       <v-container>
         <v-row>
           <div class="app-bar-title">
@@ -30,6 +30,7 @@
             v-show="$vuetify.breakpoint.mdAndUp"
             :href="storeLink"
             target="_blank"
+            color="primary"
           >
             Etsy Shop
           </v-btn>

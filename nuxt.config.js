@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - hollow-note.github.io',
-    title: 'hollow-note.github.io',
+    // titleTemplate: '%s - hollow-note.github.io',
+    title: 'Hollow Note',
     htmlAttrs: {
       lang: 'en'
     },
@@ -18,7 +18,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ]
   },
 
@@ -58,7 +58,8 @@ export default {
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
-          success: colors.green.accent3
+          success: colors.green.accent3,
+          grey: '#7C7C7C'
         },
         light: {
           primary: colors.blue.darken2,
@@ -67,10 +68,19 @@ export default {
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
-          success: colors.green.accent3
+          success: colors.green.accent3,
+          grey: '#7C7C7C'
         }
       }
-    }
+    },
+    breakpoint: {
+      thresholds: {
+        xs: 340,
+        sm: 540,
+        md: 800,
+        lg: 1280,
+      },
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

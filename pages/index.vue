@@ -2,6 +2,7 @@
   <div class="hn-body">
     <hn-hero />
     <hn-intro :content="content.intro" />
+    <hn-card-group :cards="content.cards" />
   </div>
 </template>
 <script>

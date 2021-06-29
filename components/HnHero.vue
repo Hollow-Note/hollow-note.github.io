@@ -21,11 +21,12 @@ export default {
 .hn-hero {
   position: relative;
   height: 520px;
+  margin-bottom: 2rem;
 
   &-content {
     flex: 1 1 auto;
     text-align: center;
-    z-index: 10;
+    z-index: 1;
   }
   .background-image {
     position: absolute;
