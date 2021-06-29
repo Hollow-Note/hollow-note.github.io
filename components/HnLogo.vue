@@ -1,5 +1,11 @@
 <template>
-  <v-img src="/hn-logo.svg" alt="Hollow Note Logo" width="183" contain />
+  <v-img
+    src="/hn-logo.svg"
+    alt="Hollow Note Logo"
+    width="183"
+    max-width="183"
+    contain
+  />
 </template>
 
 <script>
