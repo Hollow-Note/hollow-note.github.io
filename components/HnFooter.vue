@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="hn-footer" :absolute="!fixed" app>
+  <v-footer class="hn-footer">
     <v-container>
       <v-row>
         <v-col>
