@@ -11,19 +11,11 @@
         background-color="white"
         v-model="email"
         :rules="emailRules"
-        label="Email"
+        label="Email (optional)"
         outlined
         dense
         hint="If the card becomes available, we’ll let you know."
         persistent-hint
-      ></v-text-field>
-      <v-text-field
-        background-color="white"
-        outlined
-        v-model="eventPairing"
-        label="Event Pair"
-        required
-        dense
       ></v-text-field>
       <v-textarea
         background-color="white"
@@ -43,7 +35,7 @@
         />
       </div>
       <v-btn :disabled="!valid" color="mana_blue" @click="submit" tile>
-        Submit
+        Submit idea
       </v-btn>
     </v-form>
   </div>
@@ -58,7 +50,6 @@ export default {
     return {
       valid: true,
       email: "",
-      eventPairing: "",
       description: "",
       emailRules: [
         // v => !!v || "Email is required",
@@ -79,13 +70,11 @@ export default {
         },
         data: {
           email: this.email,
-          events: this.eventPairing,
           description: this.description
         }
+      }).then(response => {
+        console.log(response);
       });
-      //   .then(response => {
-      //     console.log(response);
-      //   });
     }
   }
 };

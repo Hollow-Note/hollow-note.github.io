@@ -1,7 +1,6 @@
 ---
 component: 'intro'
 ---
-<span class="emphasis">our company promise</span>
+## An intro
 
-## Two-in-one greeting cards
-Make someone laugh. Save yourself a stamp.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

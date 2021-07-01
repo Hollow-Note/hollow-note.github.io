@@ -63,15 +63,16 @@ export default {
           light_grey: '#F0F0F0'
         },
         light: {
-          primary: colors.blue.darken2,
+          primary: '#96CFFF',
           accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
+          secondary: '#2583AC',
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
           success: colors.green.accent3,
           grey: '#7C7C7C',
-          light_grey: '#F0F0F0'
+          light_grey: '#F0F0F0',
+          orange: colors.deepOrange,
         }
       }
     },

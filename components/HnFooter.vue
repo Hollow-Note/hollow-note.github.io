@@ -46,11 +46,6 @@ export default {
           title: "Contact Us",
           displayUrl: "hello@hollow-note.com",
           url: "mailto:hello@hollow-note.com"
-        },
-        {
-          title: "Follow Us",
-          displayUrl: "instagram.com/hollow-note",
-          url: "https://instagram.com/hollow-note"
         }
       ]
     };

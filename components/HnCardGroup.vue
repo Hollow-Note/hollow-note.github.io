@@ -19,13 +19,13 @@
             cols="12"
             md="6"
           >
-            <v-card class="hn-card">
+            <v-card class="hn-card" outlined>
               <div class="hn-card-image">
                 <img :src="card.image" :alt="card.title" />
               </div>
               <div class="hn-card-content">
                 <nuxt-content :document="card" />
-                <v-btn :href="card.link" target="_blank" text outlined>
+                <v-btn :href="card.link" target="_blank" color="secondary">
                   Buy on Etsy
                 </v-btn>
               </div>

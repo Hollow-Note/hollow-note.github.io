@@ -2,7 +2,7 @@
   <div class="hn-intro">
     <div class="hn-container">
       <v-row>
-        <v-card class="hn-intro-content" max-width="800">
+        <v-card class="hn-intro-content" max-width="800" elevation="0">
           <nuxt-content :document="content" />
         </v-card>
       </v-row>

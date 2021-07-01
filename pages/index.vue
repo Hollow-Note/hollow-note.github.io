@@ -1,9 +1,8 @@
 <template>
   <div class="hn-body">
-    <hn-hero />
+    <hn-hero :content="content.hero" />
     <hn-intro :content="content.intro" />
     <hn-card-group :cards="content.cards" />
-    <!-- <hn-about :content="content.about" /> -->
     <hn-contact :content="content.contact" />
   </div>
 </template>

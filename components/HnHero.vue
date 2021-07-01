@@ -4,7 +4,9 @@
     <div class="hn-container">
       <v-row>
         <div class="hn-hero-content">
-          <h1>HELLO</h1>
+          <v-card class="hn-intro-content" max-width="800">
+            <nuxt-content :document="content" />
+          </v-card>
         </div>
       </v-row>
     </div>
@@ -13,7 +15,13 @@
 
 <script>
 export default {
-  name: "hn-hero"
+  name: "hn-hero",
+  props: {
+    content: {
+      type: Object,
+      required: true
+    }
+  }
 };
 </script>
 
@@ -25,8 +33,14 @@ export default {
 
   &-content {
     flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     z-index: 1;
+  }
+  .v-card {
+    padding: 2rem;
   }
   .background-image {
     position: absolute;

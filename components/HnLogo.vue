@@ -2,8 +2,8 @@
   <v-img
     src="/hn-logo.svg"
     alt="Hollow Note Logo"
-    width="183"
-    max-width="183"
+    width="160"
+    max-width="160"
     contain
   />
 </template>
