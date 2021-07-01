@@ -2,3 +2,32 @@
   align-items: center;
   justify-content: center;
 }
+
+.hn-container {
+  z-index: 1;
+  width: 100%;
+  padding-right: $hn-container-padding-x;
+  padding-left: $hn-container-padding-x;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: $hn-breakpoint-sm) {
+    max-width: $hn-container-sm;
+  }
+
+  @media (min-width: $hn-breakpoint-md) {
+    max-width: $hn-container-md;
+  }
+
+  @media (min-width: $hn-breakpoint-lg) {
+    max-width: $hn-container-lg;
+  }
+
+  @media (min-width: $hn-breakpoint-xl) {
+    max-width: $hn-container-xl;
+  }
+}

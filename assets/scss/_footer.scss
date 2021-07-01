@@ -1,0 +1,33 @@
+.hn-footer {
+  padding: 3rem;
+  &-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    @media (min-width: $hn-breakpoint-sm) {
+      flex-direction: row;
+    }
+  }
+  &-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    text-align: center;
+    @media (min-width: $hn-breakpoint-sm) {
+      flex-direction: row;
+      margin-top: 0;
+      text-align: left;
+    }
+  }
+  &-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    @media (min-width: $hn-breakpoint-sm) {
+      margin-right: 2rem;
+    }
+  }
+}

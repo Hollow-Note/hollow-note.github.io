@@ -1,6 +1,6 @@
 <template>
-  <v-footer class="hn-footer">
-    <v-container>
+  <div class="hn-footer white">
+    <div class="hn-container">
       <v-row>
         <v-col>
           <div class="hn-footer-body">
@@ -27,8 +27,8 @@
           >
         </v-col>
       </v-row>
-    </v-container>
-  </v-footer>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -60,26 +60,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss" scoped>
-.hn-footer {
-  padding: 2rem;
-  &-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  &-menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  &-item {
-    display: flex;
-    flex-direction: column;
-    margin-right: 2rem;
-  }
-}
-</style>

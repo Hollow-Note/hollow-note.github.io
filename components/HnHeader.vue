@@ -18,8 +18,8 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar fixed app height="90" elevate-on-scroll>
-      <v-container>
+    <v-app-bar class="white" fixed app height="90" elevate-on-scroll>
+      <div class="hn-container">
         <v-row>
           <div class="app-bar-title">
             <hn-logo />
@@ -41,7 +41,7 @@
             <v-icon>mdi-menu</v-icon>
           </v-btn>
         </v-row>
-      </v-container>
+      </div>
     </v-app-bar>
   </div>
 </template>

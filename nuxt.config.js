@@ -59,7 +59,8 @@ export default {
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
           success: colors.green.accent3,
-          grey: '#7C7C7C'
+          grey: '#7C7C7C',
+          light_grey: '#F0F0F0'
         },
         light: {
           primary: colors.blue.darken2,
@@ -69,17 +70,10 @@ export default {
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
           success: colors.green.accent3,
-          grey: '#7C7C7C'
+          grey: '#7C7C7C',
+          light_grey: '#F0F0F0'
         }
       }
-    },
-    breakpoint: {
-      thresholds: {
-        xs: 340,
-        sm: 540,
-        md: 800,
-        lg: 1280,
-      },
     },
   },
 

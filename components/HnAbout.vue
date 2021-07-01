@@ -1,12 +1,12 @@
 <template>
   <div class="hn-about">
-    <v-container>
+    <div class="hn-container">
       <v-row>
         <v-card class="hn-about-content" max-width="800" elevation="0">
           <nuxt-content :document="content" />
         </v-card>
       </v-row>
-    </v-container>
+    </div>
   </div>
 </template>
 

@@ -1,13 +1,13 @@
 <template>
   <div class="hn-hero">
     <v-img class="background-image" src="/images/Hero.jpg" cover />
-    <v-container>
+    <div class="hn-container">
       <v-row>
         <div class="hn-hero-content">
           <h1>HELLO</h1>
         </div>
       </v-row>
-    </v-container>
+    </div>
   </div>
 </template>
 

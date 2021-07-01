@@ -41,8 +41,14 @@ $h6-font-size: 20px;
 // ==========================================================================
 // Breakpoints
 // ==========================================================================
-$hn-breakpoint-sm: 576px !default;
-$hn-breakpoint-md: 768px !default;
-$hn-breakpoint-lg: 992px !default;
-$hn-breakpoint-xl: 1200px !default;
-$hn-breakpoint-xxl: 1440px !default;
+$hn-breakpoint-sm: 600px !default;
+$hn-breakpoint-md: 960px !default;
+$hn-breakpoint-lg: 1264px !default;
+$hn-breakpoint-xl: 1904px !default;
+
+$hn-container-sm: 580px !default;
+$hn-container-md: 900px !default;
+$hn-container-lg: 1185px !default;
+$hn-container-xl: 1185px !default;
+
+$hn-container-padding-x: 1rem;

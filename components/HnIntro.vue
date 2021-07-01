@@ -1,19 +1,12 @@
 <template>
   <div class="hn-intro">
-    <v-container>
+    <div class="hn-container">
       <v-row>
         <v-card class="hn-intro-content" max-width="800">
           <nuxt-content :document="content" />
-          <v-btn
-            v-show="$vuetify.breakpoint.mdAndUp"
-            :href="storeLink"
-            target="_blank"
-          >
-            Visit our Etsy Shop
-          </v-btn>
         </v-card>
       </v-row>
-    </v-container>
+    </div>
   </div>
 </template>
 

@@ -3,7 +3,8 @@
     <hn-hero />
     <hn-intro :content="content.intro" />
     <hn-card-group :cards="content.cards" />
-    <hn-about :content="content.about" />
+    <!-- <hn-about :content="content.about" /> -->
+    <hn-contact :content="content.contact" />
   </div>
 </template>
 <script>
@@ -32,6 +33,9 @@ export default {
           break;
         case "about":
           content.about = post;
+          break;
+        case "contact":
+          content.contact = post;
           break;
         case "card":
           content.cards.push(post);
