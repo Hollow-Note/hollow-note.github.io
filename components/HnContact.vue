@@ -8,9 +8,7 @@
           </div>
         </v-col>
         <v-col>
-          <v-card>
-            <hn-contact-form />
-          </v-card>
+          <hn-contact-form />
         </v-col>
       </v-row>
     </div>
@@ -33,9 +31,6 @@ export default {
 .hn-contact {
   padding: 4rem 0 4rem;
   &-content {
-    padding: 2rem;
-  }
-  .v-card {
     padding: 2rem;
   }
 }
