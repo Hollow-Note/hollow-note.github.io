@@ -1,7 +1,7 @@
 ---
 component: 'hero'
 ---
-<span class="emphasis">our company promise</span>
+<span class="emphasis">Hollow Note</span>
 
 ## Two-in-one greeting cards
 Make someone laugh. Save yourself a stamp.
