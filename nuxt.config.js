@@ -78,6 +78,10 @@ export default {
     },
   },
 
+  publicRuntimeConfig: {
+    formSecret: process.env.VUE_APP_FORM_ENDPOINT
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }

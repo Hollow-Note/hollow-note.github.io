@@ -79,7 +79,7 @@ export default {
       this.formStepper = 2;
       axios({
         method: "post",
-        url: "https://app.99inbound.com/api/e/5YV8aVdJ",
+        url: this.$config.formSecret,
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json"
@@ -97,8 +97,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.v-stepper__wrapper {
+  padding: 5px;
+}
 .v-input {
-  margin-top: 5px;
   margin-bottom: 1rem;
 }
 .hn-contact-form {
