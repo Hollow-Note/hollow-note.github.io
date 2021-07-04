@@ -29,6 +29,7 @@ jobs:
       - name: Setup Github Secret
         env:
           VUE_APP_FORM_ENDPOINT: ${{ secrets.VUE_APP_FORM_ENDPOINT }}
+        run: echo "$VUE_APP_FORM_ENDPOINT"
 
       - name: Generate
         run: npm run generate
