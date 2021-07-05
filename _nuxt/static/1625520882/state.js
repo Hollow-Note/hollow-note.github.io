@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a,b){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1625520882",layout:"default",error:a,state:{storeLink:"https:\u002F\u002Fwww.etsy.com\u002Fshop\u002FHollowNoteCards\u002F"},serverRendered:true,routePath:b,config:{formSecret:void 0,_app:{basePath:b,assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"09a1d3d9"}}}}(null,"\u002F"));
