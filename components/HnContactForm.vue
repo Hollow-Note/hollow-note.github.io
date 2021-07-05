@@ -1,5 +1,5 @@
 <template>
-  <v-stepper v-model="formStepper" class="hn-contact-form">
+  <v-stepper v-model="formStepper" class="hn-contact-form" vertical>
     <v-stepper-items>
       <v-stepper-content step="1">
         <v-form
@@ -32,7 +32,7 @@
           <div style="position: absolute; left: -5000px;">
             <input
               type="checkbox"
-              name="thunderous_salmon_cracked_laboratory"
+              name="splendid_burnt_orange_satin_suit"
               value="1"
               tabindex="-1"
               autocomplete="no"
@@ -85,7 +85,7 @@ export default {
           Accept: "application/json"
         },
         data: {
-          email: this.email,
+          email: this.email || "No email provided",
           description: this.description
         }
       }).then(response => {
@@ -97,17 +97,24 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.v-stepper__wrapper {
-  padding: 5px;
-}
-.v-input {
-  margin-bottom: 1rem;
-}
 .hn-contact-form {
   padding: 2rem;
-}
-.hn-contact-response {
-  text-align: center;
-  padding: 4rem;
+  .hn-contact-response {
+    text-align: center;
+    padding: 4rem;
+  }
+  .v-stepper__wrapper {
+    padding: 5px;
+  }
+  .v-stepper__content {
+    &:not(:last-child) {
+      border-left: none !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+  }
+  .v-input {
+    margin-bottom: 1rem;
+  }
 }
 </style>
