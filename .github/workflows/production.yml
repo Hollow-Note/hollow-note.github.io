@@ -26,10 +26,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Setup Github Secret
-        env:
-          VUE_APP_FORM_ENDPOINT: ${{ secrets.VUE_APP_FORM_ENDPOINT }}
-        run: echo "$VUE_APP_FORM_ENDPOINT"
+      - name: Create env file
+        run: |
+          touch .env
+          echo VUE_APP_FORM_ENDPOINT=${{ secrets.VUE_APP_FORM_ENDPOINT }} >> .env
+          cat .env
 
       - name: Generate
         run: npm run generate
