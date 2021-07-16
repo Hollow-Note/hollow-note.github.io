@@ -31,6 +31,7 @@
             :href="storeLink"
             target="_blank"
             color="orange"
+            outlined
           >
             <span class="black--text">Etsy Shop</span>
           </v-btn>

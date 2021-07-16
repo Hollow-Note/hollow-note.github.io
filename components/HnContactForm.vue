@@ -98,6 +98,7 @@ export default {
 
 <style lang="scss" scoped>
 .hn-contact-form {
+  // border: 2px solid black;
   padding: 2rem;
   .hn-contact-response {
     text-align: center;

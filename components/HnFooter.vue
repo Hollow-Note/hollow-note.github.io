@@ -55,3 +55,8 @@ export default {
   }
 };
 </script>
+<style lang="scss" scoped>
+.link-url {
+  font-weight: bold;
+}
+</style>

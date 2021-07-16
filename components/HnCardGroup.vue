@@ -29,7 +29,6 @@
                   Buy on Etsy
                 </v-btn>
               </div>
-              <!-- <a class="hn-card-link" :href="card.link" target="_blank" /> -->
             </v-card>
           </v-col>
         </v-row>
@@ -72,15 +71,21 @@ export default {
   width: 100%;
   display: flex;
   flex-direction: column;
+  min-height: 600px;
 
   &-image img {
     width: 100%;
   }
   &-content {
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
   }
   .v-btn {
-    margin-top: 2rem;
+    align-self: flex-start;
+    margin-top: 1rem;
   }
 }
 </style>

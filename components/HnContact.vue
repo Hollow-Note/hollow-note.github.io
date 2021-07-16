@@ -30,6 +30,8 @@ export default {
 <style lang="scss" scoped>
 .hn-contact {
   padding: 4rem 0 4rem;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   &-content {
     padding: 2rem;
   }
